@@ -5,11 +5,12 @@ const Project = (props) => {
     const { img, disc } = props.item;
   return (
     <Container className='project'>
-        <img src={img} alt="project" />
+        <img src={img} alt="project" />y
+        
         <div className="disc">
             <h1>Description</h1>
             <p>{disc}
-            <a href="/">demo</a>
+            <a href="/https://my-portfolio-flax-rho-84.vercel.app/">demo</a>
             </p>
         </div>
     </Container>

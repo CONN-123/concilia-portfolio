@@ -38,7 +38,7 @@ const Footer = () => {
               <FiPhoneCall />
             </span>
             <Slide direction="left">
-              <a href="tel:+4733378901">+263 782 278 048</a>
+              <a href="+263 782 278 048">+263 782 278 048</a>
             </Slide>
           </div>
           <div>
@@ -173,7 +173,7 @@ const Profile = styled.div`
         text-decoration: none;
         color: lightgray;
         :hover {
-          color: orange;
+          color: #DAA07D;
         }
       }
     }
@@ -200,7 +200,7 @@ const Profile = styled.div`
         border-radius: 50px;
 
         :hover {
-          background-color: orange;
+          background-color: #DAA07D;
         }
 
         a {
@@ -214,7 +214,7 @@ const Profile = styled.div`
 const ArrowUp = styled.div`
   width: 2rem;
   height: 2rem;
-  background-color: #01be96;
+  background-color: #DAA07D;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -270,13 +270,13 @@ const Form = styled.div`
     button {
       width: 5rem;
       height: 1.8rem;
-      background-color: #01be96;
+      background-color: #DAA07D;
       border: none;
       border-radius: 5px;
-      filter: drop-shadow(0px 4px 5px #01be9551);
+      filter: drop-shadow(0px 4px 5px #DAA07D);
       cursor: pointer;
       :hover {
-        filter: drop-shadow(0px 6px 9px #01be9551);
+        filter: drop-shadow(0px 6px 9px #f0bd9c);
       }
     }
   }

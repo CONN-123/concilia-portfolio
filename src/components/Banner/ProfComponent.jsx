@@ -18,13 +18,14 @@ const ProfComponent = () => {
          
           <div className="bees">
           <button>Contact me</button>
-          <button>Dowload CV</button>
+          <a  href="https://www.canva.com/design/DAF7XvnmFNA/dcO21LAejl0-KCLcDWV4RQ/edit?utm_content=DAF7XvnmFNA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">
+            <button>Dowload CV</button></a>
           </div>
           <Social>
             <p>Check out my</p>
             <div className="social-icons">
               <span>
-                <a href="/">
+                <a href="/https://wa.me/[0782278048]">
                 <AiOutlineWhatsApp />
                 </a>
               </span>
@@ -45,7 +46,7 @@ const ProfComponent = () => {
       <Slide direction="right">
         <Profile>
           <img
-            src="https://res.cloudinary.com/ghazni/image/upload/v1659082282/Yt-portfolio/Untitled-1_drcspz.png"
+            src="./images/DSC_0345-removebg-preview.png"
             alt="profile"
           />
         </Profile>
@@ -99,13 +100,13 @@ const Texts = styled.div`
     padding: 0.7rem 2rem;
     margin-top: 3rem;
     cursor: pointer;
-    background-color: #01be96;
+    background-color: #DAA07D;
     border: none;
     color: #fff;
     font-weight: 500;
-    filter: drop-shadow(0px 10px 10px #01be9551);
+    filter: drop-shadow(0px 10px 10px #DAA07D);
     :hover {
-      filter: drop-shadow(0px 10px 10px #01be9570);
+      filter: drop-shadow(0px 10px 10px #DAA07D);
     }
   }
 `;
@@ -129,7 +130,7 @@ const Social = styled.div`
       width: 2.3rem;
       height: 2rem;
       clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
-      background-color: #01be96;
+      background-color: #DAA07D;
       position: relative;
       transition: transform 400ms ease-in-out;
       :hover {
@@ -149,7 +150,7 @@ const Social = styled.div`
 const Profile = styled.div`
   img {
     width: 25rem;
-    filter: drop-shadow(0px 10px 10px #01be9570);
+    filter: drop-shadow(0px 20px 20px #edb491);
     transition: transform 400ms ease-in-out;
     @media (max-width: 790px) {
       width: 20rem;

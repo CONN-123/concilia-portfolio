@@ -10,8 +10,8 @@ let data = [
         disc : "I have crafted a portfolio website showcasing the work and skills of a talented Ui/UX designer."
     },
     {
-        img : "./images/uncommon.png",
-        disc : "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!"
+        img : "./images/myport.png",
+        disc : "This is a portfolio of my own!"
     },
     {
         img : "./images/uncommon.png",
@@ -100,7 +100,7 @@ const Buttons = styled.div`
     height: 2rem;
     background-color: rgba(255, 255, 255, 0.100);
     cursor: pointer;
-    color: #01be96;
+    color: #DAA07D;
     border: none;
     position: absolute;
     top: 45%;
