@@ -7,20 +7,21 @@ import styled from 'styled-components';
 let data = [
     {
         img : "./images/dylan.png",
-        disc : "I have crafted a portfolio website showcasing the work and skills of a talented Ui/UX designer."
+        disc : "I have crafted a portfolio website showcasing the work and skills of a talented Ui/UX designer.",
+        link:"https://my-portfolio-flax-rho-84.vercel.app/"
     },
     {
         img : "./images/myport.png",
-        disc : "This is a portfolio of my own!"
+        disc : "This is a portfolio of my own!",
+        link:"https://my-portfolio-flax-rho-84.vercel.app/"
     },
     {
         img : "./images/uncommon.png",
-        disc : "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!"
+        disc : "multiple page website for uncommon.org!",
+        link:"https://uncommon-website-app.web.app/"
+         
     },
-    {
-        img : "./images/dylan.png",
-        disc : "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!"
-    },
+
    
 
 ];

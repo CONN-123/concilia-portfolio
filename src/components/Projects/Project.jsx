@@ -2,15 +2,15 @@ import React from 'react'
 import styled from 'styled-components';
 
 const Project = (props) => {
-    const { img, disc } = props.item;
+    const { img, disc, link } = props.item;
   return (
     <Container className='project'>
-        <img src={img} alt="project" />y
+        <img src={img} alt="project" />
         
         <div className="disc">
             <h1>Description</h1>
             <p>{disc}
-            <a href="/https://my-portfolio-flax-rho-84.vercel.app/">demo</a>
+            <a href={link} target='_blank'>demo</a>
             </p>
         </div>
     </Container>
@@ -24,7 +24,7 @@ const Container = styled.div`
     background-color: #4e5156;
     margin: 0 0.5rem;
     padding: 0.5rem;
-    border-radius: 5px;
+    border-radius: 5px; 
     cursor: pointer;
     position: relative;
     overflow: hidden;
